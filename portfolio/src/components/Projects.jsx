@@ -30,8 +30,8 @@ const Projects = () => {
 </div>
 <div>
             <div class="flex flex-wrap overflow-hidden">
-                <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
-                    <img src={buildmastershub} alt="Build Masters Hub" class="object-cover object-center rounded-lg h-96 w-full" />
+                <div class="w-full overflow-hidden sm:w-1/2 lg:w-1/2 xl:w-1/2">
+                    <img src={buildmastershub} alt="Build Masters Hub" class="rounded-lg h-full w-full object-cover" />
                 </div>
                 <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
                     <div class="p-6">

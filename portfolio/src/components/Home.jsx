@@ -37,7 +37,7 @@ const Home = () => {
                 </div>
                 <div>
             <h1 style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '3rem' }} className='FirstTitle'>Hey There!</h1>
-            <p style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '1rem', textAlign: 'center'  }}>  I am Carl Saginsin, a <span style={{ color: 'blue' }}>Software Engr</span> from Manila, Philippines</p>
+            <p style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '1rem', textAlign: 'center'  }}>  I am Carl Saginsin, a <span style={{ color: 'blue' }}>Web Developer</span> from Manila, Philippines</p>
             <div className="flex items-center justify-center">
                 <img src={github} className="w-10 h-10 mx-1" alt="logo" />
                 <img src={instagram} className="w-10 h-10 mx-1" alt="logo" />
@@ -45,7 +45,9 @@ const Home = () => {
                 <img src={facebook} className="w-10 h-10 mx-1" alt="logo" />
             </div>
             </div>
-            <div className="flex items-center justify-center pt-10">
+
+            <p className='pt-10' style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '1rem', textAlign: 'center'  }}>My Tech Stack</p>
+            <div className="flex items-center justify-center pt-2">               
                 <img src={html} className="w-10 h-10 mx-3" alt="logo" />
                 <img src={css} className="w-10 h-10 mx-3" alt="logo" />
                 <img src={bootstrap} className="w-10 h-10 mx-3" alt="logo" />
