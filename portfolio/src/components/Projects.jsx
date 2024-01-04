@@ -35,7 +35,7 @@ const Projects = () => {
                 </div>
                 <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
                     <div class="p-6">
-                        <h2 style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '2rem' }}>Build Masters Hub</h2>
+                        <h2 style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '2rem' }}>BuildMastersHub</h2>
                                 <div className="flex pt-5">
                                         <img src={react} className="w-10 h-10 mx-3" alt="logo" />
                                         <img src={tailwind} className="w-10 h-10 mx-3" alt="logo" />
@@ -47,6 +47,11 @@ const Projects = () => {
 BuildMasterHub aims to bridge the gap between talent and opportunity within the construction realm, fostering a collaborative ecosystem where craftsmanship meets demand. By leveraging technology to streamline the process of showcasing skills and networking, this platform aspires to redefine how professionals in the construction field interact, collaborate, and thrive in a competitive market.
 This web app is created using the latest technologies React javascript and TailwindCSS and on the backend is Firebase
                         </p>
+                            <div className=' relative flex items-center '>
+                                <p className ='pt-4'style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+                                    <span style={{ color: 'blue' }}>Live Website</span>
+                                </p>
+                            </div>
                     </div>
                 </div>
                {/* ibang projects */}
@@ -56,7 +61,17 @@ This web app is created using the latest technologies React javascript and Tailw
                     <div className="flex items-center justify-center flex-wrap pt-1">
                                         <img src={react} className="w-10 h-10 mx-3" alt="logo" />
                                         <img src={tailwind} className="w-10 h-10 mx-3" alt="logo" />
-                                </div>
+                    </div>
+                    <p style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+                    MANILA THRIFT SHOP: E-COMMERCE WEBSITE masterfully embodies simplicity in design and color choices. Created using the ReactJS and Tailwind CSS tech stack, the website's interface reflects a harmonious blend of functionality and aesthetics. The minimalist design ensures a clutter-free browsing experience, enabling users to effortlessly navigate through the curated thrift collection. The carefully chosen color palette exudes a sense of calmness and modernity, enhancing the overall visual appeal. With ReactJS's dynamic components and Tailwind CSS's utility classes, the project achieves both elegance and efficiency, elevating the online shopping journey to a seamless and visually pleasing level.
+                    </p>
+                    <div className=' relative flex items-center '>
+                        <a href='https://csaguinsin.github.io/manila-thrift-shop/' target='_blank'>
+                                <p className ='pt-4'style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+                                    <span style={{ color: 'blue' }}>Live Website</span>
+                                </p>
+                        </a>
+                            </div> 
                 </div>
                 <div className="w-full sm:w-1/2 lg:w-1/3 xl:w-1/3 p-2">
                     <img src={citybarbers} alt="City Barbers" className="rounded-lg h-full w-full object-cover" />
@@ -64,7 +79,17 @@ This web app is created using the latest technologies React javascript and Tailw
                                         <img src={html} className="w-10 h-10 mx-3" alt="logo" />
                                         <img src={css} className="w-10 h-10 mx-3" alt="logo" />
                                         <img src={bootstrap} className="w-10 h-10 mx-3" alt="logo" />
-                                </div>
+                    </div>
+                    <p className='pt-4' style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+                    CITY BARBER'S: BARBER SHOP CHRONICLES exemplifies elegance through its simplicity. Crafted with a tech stack of HTML, CSS, Bootstrap, and jQuery. This project seamlessly blends these technologies to create a user-friendly experience. The website's minimalist design prioritizes ease of navigation. Making it effortless for users to explore different aspects of barbering artistry. With a focus on clean layouts and intuitive interactions, visitors can delve into the world of barber shops and their rich traditions while enjoying a smooth, responsive interface. CITY BARBER'S captures the essence of sophistication through its uncomplicated yet engaging presentation.
+                    </p>
+                    <div className=' relative flex items-center '>
+                        <a href='https://csaguinsin.github.io/City-Barbers-Website/index.html' target='_blank'>
+                                <p className ='pt-4'style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+                                    <span style={{ color: 'blue' }}>Live Website</span>
+                                </p>
+                        </a>
+                            </div>
                 </div>
                 {/* Add more images in a similar structure if needed */}
                 </div>
