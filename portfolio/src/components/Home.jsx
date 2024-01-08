@@ -82,6 +82,12 @@ const Home = () => {
                 <p className='mb-4' style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '1rem' }}>
                 A passionate <span style={{ color: 'blue' }}>Web Developer</span> diving deep into the world of technology. My toolbox includes HTML, CSS, and JavaScript as my foundational languages. I craft sleek and responsive designs using Bootstrap or TailwindCSS, while jQuery adds that extra touch of interactivity. My love for building user interfaces extends to React.js, where I create dynamic and engaging web applications. When it comes to the backend, I rely on the power of Node.js and Firebase for seamless functionality and real-time updates. Additionally, I wield MySQL for efficient database management, ensuring robust and scalable solutions. I thrive on challenges and love transforming ideas into code. Let's connect and craft something amazing together!
                 </p>
+                <p className='mb-4' style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '1rem' }}>
+                📧 Open for works!: saguinsincarl8@gmail.com
+                </p>
+                <p className='mb-4' style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '1rem' }}>
+                📱 Give me a call: +639156716478
+                </p>
             </div>
             <div className="lg:w-1/2 lg:pl-6">
                 <img src={Carl} className="w-80 h-50 lg:h-full rounded-lg" alt="Carl's Photo" />

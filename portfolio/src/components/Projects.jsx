@@ -61,6 +61,7 @@ This web app is created using the latest technologies React javascript and Tailw
                     <div className="flex items-center justify-center flex-wrap pt-1">
                                         <img src={react} className="w-10 h-10 mx-3" alt="logo" />
                                         <img src={tailwind} className="w-10 h-10 mx-3" alt="logo" />
+                                        <img src={node} className="w-10 h-10 mx-3" alt="logo" />
                     </div>
                     <p style={{ fontFamily: 'Inter Tight, sans-serif' }}>
                     MANILA THRIFT SHOP: E-COMMERCE WEBSITE masterfully embodies simplicity in design and color choices. Created using the ReactJS and Tailwind CSS tech stack, the website's interface reflects a harmonious blend of functionality and aesthetics. The minimalist design ensures a clutter-free browsing experience, enabling users to effortlessly navigate through the curated thrift collection. The carefully chosen color palette exudes a sense of calmness and modernity, enhancing the overall visual appeal. With ReactJS's dynamic components and Tailwind CSS's utility classes, the project achieves both elegance and efficiency, elevating the online shopping journey to a seamless and visually pleasing level.
