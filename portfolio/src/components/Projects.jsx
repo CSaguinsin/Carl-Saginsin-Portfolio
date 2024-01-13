@@ -13,11 +13,6 @@ import bootstrap from '../assets/bootstrap.png'
 import tailwind from '../assets/tailwind.png'
 import jquery from '../assets/jquery.png'
 import firebase from '../assets/firebase.png'
-import instagram from '../assets/instagram.png'
-import facebook from '../assets/facebook.png'
-import tiktok from '../assets/tiktok.png'
-import github from '../assets/github.png'
-import mysql from '../assets/mysql.png'
 const Projects = () => {
   return (
    <>   
@@ -48,9 +43,11 @@ BuildMasterHub aims to bridge the gap between talent and opportunity within the 
 This web app is created using the latest technologies React javascript and TailwindCSS and on the backend is Firebase
                         </p>
                             <div className=' relative flex items-center '>
+                                <a href='https://buildmastershub.web.app/' target='_blank'>
                                 <p className ='pt-4'style={{ fontFamily: 'Inter Tight, sans-serif' }}>
                                     <span style={{ color: 'blue' }}>Live Website</span>
                                 </p>
+                                </a>
                             </div>
                     </div>
                 </div>
@@ -80,6 +77,7 @@ This web app is created using the latest technologies React javascript and Tailw
                                         <img src={html} className="w-10 h-10 mx-3" alt="logo" />
                                         <img src={css} className="w-10 h-10 mx-3" alt="logo" />
                                         <img src={bootstrap} className="w-10 h-10 mx-3" alt="logo" />
+                                        <img src={jquery} className="w-10 h-10 mx-3" alt="logo" />
                     </div>
                     <p className='pt-4' style={{ fontFamily: 'Inter Tight, sans-serif' }}>
                     CITY BARBER'S: BARBER SHOP CHRONICLES exemplifies elegance through its simplicity. Crafted with a tech stack of HTML, CSS, Bootstrap, and jQuery. This project seamlessly blends these technologies to create a user-friendly experience. The website's minimalist design prioritizes ease of navigation. Making it effortless for users to explore different aspects of barbering artistry. With a focus on clean layouts and intuitive interactions, visitors can delve into the world of barber shops and their rich traditions while enjoying a smooth, responsive interface. CITY BARBER'S captures the essence of sophistication through its uncomplicated yet engaging presentation.
