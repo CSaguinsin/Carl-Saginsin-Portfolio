@@ -13,7 +13,7 @@ import bootstrap from '../assets/bootstrap.png'
 import tailwind from '../assets/tailwind.png'
 import jquery from '../assets/jquery.png'
 import firebase from '../assets/firebase.png'
-import Acore from '../assets/Acore.png'
+import Acore from '../assets/acore.png'
 const Projects = () => {
   return (
    <>   
