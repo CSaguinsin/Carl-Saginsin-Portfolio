@@ -13,6 +13,7 @@ import bootstrap from '../assets/bootstrap.png'
 import tailwind from '../assets/tailwind.png'
 import jquery from '../assets/jquery.png'
 import firebase from '../assets/firebase.png'
+import Acore from '../assets/Acore.png'
 const Projects = () => {
   return (
    <>   
@@ -44,6 +45,31 @@ This web app is created using the latest technologies React javascript and Tailw
                         </p>
                             <div className=' relative flex items-center '>
                                 <a href='https://buildmastershub.web.app/' target='_blank'>
+                                <p className ='pt-4'style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+                                    <span style={{ color: 'blue' }}>Live Website</span>
+                                </p>
+                                </a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="w-full overflow-hidden sm:w-1/2 lg:w-1/2 xl:w-1/2">
+                    <img src={Acore}b alt="Build Masters Hub" class="pl-5 rounded-lg h-full w-full object-cover" />
+                </div>
+                <div class="w-full overflow-hidden lg:w-1/2 xl:w-1/2">
+                    <div class="p-6">
+                        <h2 style={{ fontFamily: 'Inter Tight, sans-serif', fontSize: '2rem' }}>A Core Lying In Web App</h2>
+                                <div className="flex pt-5">
+                                        <img src={react} className="w-10 h-10 mx-3" alt="logo" />
+                                        <img src={tailwind} className="w-10 h-10 mx-3" alt="logo" />
+                                        <img src={node} className="w-10 h-10 mx-3" alt="logo" />
+                                        <img src={firebase} className="w-10 h-10 mx-3" alt="logo" />
+                                </div>
+                        <p className ='pt-4'style={{ fontFamily: 'Inter Tight, sans-serif' }}>
+                        At A-Core Medical & Maternity Lying-In Clinic, our unwavering commitment to providing exceptional healthcare services is at the heart of our mission. With a team of dedicated and compassionate professionals, we prioritize the well-being of our patients throughout their medical and maternity journey. Our state-of-the-art facilities and personalized care approach ensure that each individual receives comprehensive and tailored services, fostering a safe and comfortable environment. From medical consultations to maternity care, we strive to exceed expectations, empowering our community with the highest standards of healthcare. Your health is our priority, and at A-Core, we are here to support you every step of the way.
+                        </p>
+                            <div className=' relative flex items-center '>
+                                <a href='https://a-core-web-app.web.app/' target='_blank'>
                                 <p className ='pt-4'style={{ fontFamily: 'Inter Tight, sans-serif' }}>
                                     <span style={{ color: 'blue' }}>Live Website</span>
                                 </p>
